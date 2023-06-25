@@ -1,0 +1,103 @@
+
+body {
+    margin: 0;
+    background: pink;
+    color: #fafafa;
+}
+
+.title {
+    color: blueviolet;
+    margin: auto;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+
+}
+
+.subtitle {
+    color: #C795AD;
+}
+
+.filtros {
+    margin: auto;
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 2rem;
+    text-align: center;
+    max-width: 600px;
+}
+
+.filtros>label {
+    margin: 1rem 0px;
+}
+
+.filtros>select,
+.filtros>input,
+.filtros>button {
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+}
+
+.filtros>button {
+    color: black;
+    margin-top: 2rem;
+    padding: 9px 0px;
+    font-size: x-large;
+    border-radius: 10px;
+    background: #C795AD;
+    border: 0px;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 15px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #C795AD;
+    width: 70%;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 15px;
+    max-width: 300px;
+
+}
+
+.container>h4 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+select {
+    background: #C795AD;
+    color: black;
+    padding: 5px 0;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 15px;
+    outline: none;
+}
+
+option {
+    background: #C795AD;
+    color: #fafafa;
+}
+
+
+.hidden {
+    display: none;
+}
+input{
+    background: #C795AD;
+    color: black;
+    padding: 5px 0;
+    border: transparent;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 5px 15px;
+    outline: none;
+}

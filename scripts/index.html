@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+ 
+    <title>Streamberry</title>
+</head>
+<body>
+    <div class="title">
+        <h1>StreamBerry 🍇🫐</h1>
+    </div>
+    
+    <div class="filtros">
+        <label class="subtitle" for="">Usuario</label>
+            <select name="userId" id="userId">
+                <option value="">todos</option>
+               
+            </select>
+            <label class="subtitle" for="rate">Calificacion</label> 
+            <select name="rate" id="rate">
+                <option value="">todas</option>
+                <option value="1">1 ⭐</option>
+                <option value="2">2 ⭐⭐</option>
+                <option value="3">3 ⭐⭐⭐</option>
+                <option value="4">4 ⭐⭐⭐⭐</option>
+                <option value="5">5 ⭐⭐⭐⭐⭐</option>
+            </select>
+            <label class="subtitle" for="fromDate"> Fecha desde </label>
+            <input type="date" name="fromDate" id="fromDate">
+            <label class="subtitle" for="toDate"> Fecha hasta: </label>
+            <input type="date" name="toDate" id="toDate">
+            <button id="btnFilter">Buscar</button>
+    </div>
+    <div class="cardContainer" id="moviesList">
+        
+    </div>
+
+    <script src="./movies-filter.js"></script>
+</body>
+</html>
